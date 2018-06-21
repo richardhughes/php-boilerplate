@@ -1,0 +1,16 @@
+{
+    "name": "richardhughes/conventions",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Richie Hughes",
+            "email": "eeuc40@hotmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "jakub-onderka/php-parallel-lint": "^1.0",
+        "phpro/grumphp": "^0.14.1"
+    }
+}
