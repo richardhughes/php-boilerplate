@@ -4,6 +4,5 @@ parameters:
     ascii:
       failed: ~
       succeeded: ~
-
     tasks:
       phplint: ~

@@ -12,5 +12,7 @@
     "require-dev": {
         "jakub-onderka/php-parallel-lint": "^1.0",
         "phpro/grumphp": "^0.14.1"
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
