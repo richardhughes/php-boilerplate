@@ -6,3 +6,22 @@ parameters:
       succeeded: ~
     tasks:
       phplint: ~
+      phpparser:
+        ignore_patterns: []
+        kind: php7
+        visitors:
+          declare_strict_types: ~
+          never_use_else: ~
+          no_exit_statements: ~
+          forbidden_function_calls:
+            blacklist:
+            - 'var_dump'
+            - 'print_r'
+            - 'dd'
+        triggered_by: [php]
+      phpunit:
+        config_file: ./phpunit.xml
+        testsuite: ~
+        group: []
+        always_execute: true
+      securitychecker: ~
