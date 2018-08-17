@@ -5,6 +5,8 @@ parameters:
       failed: ~
       succeeded: ~
     tasks:
+      composer: ~
+      jsonlint: ~
       phplint: ~
       phpparser:
         ignore_patterns: []

@@ -1,29 +1,30 @@
 {
-    "name": "richardhughes/php-boilerplate",
-    "type": "project",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Richard Hughes",
-            "email": "eeuc40@hotmail.com"
-        }
-    ],
-    "require": {
-        "php": ">= 7.2.7"
-    },
-    "require-dev": {
-        "jakub-onderka/php-parallel-lint": "^1.0",
-        "phpro/grumphp": "dev-master",
-        "sensiolabs/security-checker": "^4.1",
-        "nikic/php-parser": "^4.0",
-        "phpunit/phpunit": "^7.3"
-    },
-    "autoload": {
-        "psr-0": {
-            "App": "src/",
-            "Tests": "tests/"
-        }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+  "name": "richardhughes/php-boilerplate",
+  "description": "Boilerplate code for new PHP projects",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Richard Hughes",
+      "email": "eeuc40@hotmail.com"
+    }
+  ],
+  "require": {
+    "php": ">= 7.2.7"
+  },
+  "require-dev": {
+    "jakub-onderka/php-parallel-lint": "^1.0",
+    "phpro/grumphp": "dev-master",
+    "sensiolabs/security-checker": "^4.1",
+    "nikic/php-parser": "^4.0",
+    "phpunit/phpunit": "^7.3"
+  },
+  "autoload": {
+    "psr-0": {
+      "App": "src/",
+      "Tests": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
