@@ -4,6 +4,7 @@ parameters:
     ascii:
       failed: ~
       succeeded: ~
+    hide_circumvention_tip: true
     tasks:
       composer: ~
       jsonlint: ~
