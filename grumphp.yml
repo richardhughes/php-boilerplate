@@ -8,6 +8,19 @@ parameters:
       composer: ~
       jsonlint: ~
       phplint: ~
+      phpmnd:
+        directory: ./src
+        whitelist_patterns: []
+        exclude: []
+        exclude_name: []
+        exclude_path: []
+        extensions:
+          - all
+        hint: false
+        ignore_numbers: []
+        ignore_strings: []
+        strings: false
+        triggered_by: [php]
       phpparser:
         ignore_patterns: []
         kind: php7
