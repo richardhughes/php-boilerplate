@@ -20,3 +20,7 @@ Or you can clone this repository and install dependencies
 ```
 git clone https://github.com/richardhughes/php-boilerplate.git
 ```
+
+## Docker 
+
+Start the docker PHP container: `docker-compose up -d`
