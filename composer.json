@@ -14,7 +14,7 @@
   },
   "require-dev": {
     "jakub-onderka/php-parallel-lint": "^1.0",
-    "phpro/grumphp": "dev-master",
+    "phpro/grumphp": "^0.14",
     "sensiolabs/security-checker": "^4.1",
     "nikic/php-parser": "^4.0",
     "phpunit/phpunit": "^7.3",
